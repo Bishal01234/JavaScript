@@ -1,1 +1,21 @@
-{"image":"mcr.microsoft.com/devcontainers/universal:2"}
+
+{"name":"Node.js",
+// or use a Dockerfile or Docker Compose file. More info https://containers.dev/guide/dockerfile
+ "image":"mcr.microsoft.com/devcontainers/javascript-node:0-18"
+
+//  Features to add to the dev container. More info: https://containers.dev/features.
+// "features": {},
+
+// Use 'forwardPorts' to make a list pf ports inside the container avalible locally.
+// "forwardPorts": [],
+
+// Use 'postCreateCommand' to run commands after the container is created.
+// "postCreateCommand": "yarn install",
+
+// Configure tool-specific-properties.
+// "customization": {},
+
+// Uncoment to connect as root instead, More info: https://aka.ns/dev-containers-non-root.
+// "remoteUser": "root"
+
+}
