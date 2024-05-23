@@ -1,44 +1,26 @@
-// #Primitive
-
-// 7 types : String, Number, Boolean, null, undefined, Symbol, BigInt
 
 
-const score = 100
-const scoreVal = 100.4
+// *****************************************************
 
-const isLoggedIn = false
-const outsideTemp = null
-let userEmail;
+// Stack (Primitive), Heap (Non-Primitive)
 
-const id = Symbol('123')
-const anotherId = Symbol("123")
+let myName = "Bishal"
+let anotherName = myName
+anotherName = "Kar"
 
-// console.log(id == anotherId)
-// console.log(anotherId)
-// console.log(id)
+console.log(myName)
+console.log(anotherName)
 
-
-const bigNum = 183754875413784326946932n
-
-
-
-// Reference(Non Primitive)
-
-// Array, Objects, Functions
-
-
-const heros = ["A", "B", "C", "D"];
-
-let myBio = {
-    name: "Bishal",
-    age: "22",
+let userOne = {
+    email: "user!123@gmail.com",
+    upi: "user@ybi",
 }
 
-const myFunction = function(){
-    console.log("Hello World");
-}
+let userTwo = userOne
 
-console.log(typeof bigNum)
-console.log(typeof userEmail)
-console.log(typeof outsideTemp)
-console.log(typeof myFunction)
+userTwo.email = "Bishal@gmail.com"
+
+console.log(userOne.email)
+console.log(userTwo.email)
+
+
